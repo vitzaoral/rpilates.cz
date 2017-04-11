@@ -950,9 +950,9 @@ nav.bg-dark .logo-dark {
 .menu > li:last-child {
   margin-right: 0;
 }
-.menu > li:last-child > ul {
+/*.menu > li:last-child > ul {
   right: 0;
-}
+}*/
 .menu > li:last-child > ul ul {
   left: auto;
   right: 100%;
@@ -1170,7 +1170,7 @@ nav .cart-overview a {
   height: auto;
 }
 .language .menu > li ul {
-  max-width: 150px;
+  max-width: 250px;
 }
 .nav-open {
   max-height: 10000px !important;
