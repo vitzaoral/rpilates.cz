@@ -620,9 +620,10 @@ $(document).ready(function() {
                 loadingSpinner = jQuery('<div />').addClass('form-loading').insertAfter($(thisForm).find('input[type="submit"]'));
                 $(thisForm).find('input[type="submit"]').hide();
 
+                // samotne odeslani emailu
                 jQuery.ajax({
                     type: "POST",
-                    url: "mail/mail.php",
+                    url: "php/mail.php",
                     data: thisForm.serialize(),
                     success: function(response) {
                         // Swiftmailer always sends back a number representing numner of emails sent.
